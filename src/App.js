@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <button onClick={() => setIsOpen(true)}>Open Modal</button>
-      <Modal position='right' open={isOpen} onClose={() => setIsOpen(false)}>
+      <Modal open={isOpen} onClose={() => setIsOpen(false)}>
         Fancy Modal
       </Modal>
     </div>
